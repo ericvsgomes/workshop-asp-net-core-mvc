@@ -12,7 +12,7 @@ namespace SalesWebMvc.Migrations
 {
     [DbContext(typeof(SalesWebMvcContext))]
     [Migration("20230404182308_DepartmentForeingKey")]
-    partial class DepartmentForeingKey
+    partial class DepartmentForeignKey
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
